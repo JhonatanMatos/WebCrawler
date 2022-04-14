@@ -11,7 +11,7 @@ namespace WebCrawler
     {
         static void Main(string[] args)
         {
-            string urlPage = "https://docs.microsoft.com/pt-br/dotnet/api/system.io.file.delete?view=net-6.0";
+            string urlPage = "https://github.com/JhonatanMatos/WebCrawlere";
             int tamanhoPalavra = 4;
             string codigoHtml = PageHtmlCode(urlPage);
             List<string> wordList = formatCode(codigoHtml, tamanhoPalavra);
